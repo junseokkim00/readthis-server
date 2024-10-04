@@ -8,6 +8,7 @@ import time
 import os
 import shutil
 from pydantic import BaseModel
+import uvicorn
 
 
 # instance for POST METHOD
@@ -166,3 +167,6 @@ def next_collection_paper(params: nextCollectionPaperParams):
         }
         response.append(inst)
     return response
+
+if __name__ == '__main__':
+    uvicorn.run(app)
