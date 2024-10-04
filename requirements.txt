@@ -1,0 +1,20 @@
+beautifulsoup4
+arxiv
+pymupdf
+langchain-core
+langchain-community
+chromadb
+langchain-chroma
+langchain-huggingface
+langchain-openai
+langchain-groq
+fastapi
+uvicorn[standard]
+scikit-learn
+gsutil
+pyzotero
+streamlit
+streamlit-ext
+duckduckgo-search
+pydantic
+# pysqlite3-binary
